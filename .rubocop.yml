@@ -1,0 +1,20 @@
+# .rubocop.yml
+require:
+  - rubocop-rails
+  - rubocop-factory_bot
+  - rubocop-rspec
+
+AllCops:
+  TargetRubyVersion: 3.0 # Adjust this based on your Ruby version
+
+Rails:
+  Enabled: true
+
+Style/Documentation:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Enabled: false
+
+RSpec/NestedGroups:
+  Enabled: false
