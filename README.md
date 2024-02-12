@@ -8,6 +8,7 @@ CourseTutorTestApp is a Ruby on Rails application that manages courses and tutor
 - I have implemented comprehensive RSpec tests for the `Course` and `Tutor` models, including all necessary validations.
 - I introduced token-based authentication, along with an additional user model, to enhance security.
 - RuboCop has been integrated for code style enforcement.
+- API for user creation is open just for convinience, but users will be always created from the backend
 
 
 ## Getting Started
